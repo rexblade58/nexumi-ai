@@ -1,0 +1,1 @@
+module.exports={ defaultProvider:'demo', maxTokens:512 };
