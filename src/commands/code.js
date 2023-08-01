@@ -1,0 +1,1 @@
+module.exports={ CodeCommand: async(p,ctx)=>ctx.chat('Generate code: '+p) };
