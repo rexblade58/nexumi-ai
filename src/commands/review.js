@@ -1,0 +1,1 @@
+module.exports={ ReviewCommand: async(p,ctx)=>ctx.chat('Review: '+p) };
