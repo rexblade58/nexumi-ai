@@ -1,1 +1,0 @@
-async function chat(h,p){ const r=await fetch(h+'/api/generate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'llama2',prompt:p,stream:!1})}); const d=await r.json(); return d.response; } module.exports={chat};

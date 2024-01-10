@@ -1,1 +1,0 @@
-const OpenAI=require('openai'); async function chat(k,p){ const o=new OpenAI({apiKey:k}); const r=await o.chat.completions.create({model:'gpt-3.5-turbo',messages:[{role:'user',content:p}]}); return r.choices[0].message.content; } module.exports={chat};

@@ -1,1 +1,0 @@
-module.exports={ ExplainCommand: async(p,ctx)=>ctx.chat('Explain: '+p) };

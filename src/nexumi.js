@@ -1,1 +1,0 @@
-class Nexumi { constructor(o){ this.p=o.provider||'demo'; } async ask(p){ return this.chat(p); } async chat(p){ return '> '+p; } } module.exports={Nexumi};
