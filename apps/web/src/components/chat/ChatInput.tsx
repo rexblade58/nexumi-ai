@@ -1,0 +1,1 @@
+export function ChatInput({ onSend }: any) { return <input placeholder='Type...' onKeyDown={e=>e.key==='Enter'&&onSend(e.currentTarget.value)} />; }

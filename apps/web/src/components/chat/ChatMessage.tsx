@@ -1,0 +1,1 @@
+export function ChatMessage({ role, content }: any) { return <div><strong>{role}:</strong> {content}</div>; }

@@ -1,0 +1,1 @@
+import { ChatInput } from './ChatInput'; import { ChatMessage } from './ChatMessage'; export function ChatInterface() { return <div><ChatMessage role='assistant' content='Hello!' /><ChatInput onSend={m=>alert(m)} /></div>; }
