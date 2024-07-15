@@ -1,0 +1,1 @@
+import { ChatInterface } from '../chat/ChatInterface'; export function ChatPage() { return <ChatInterface />; }
