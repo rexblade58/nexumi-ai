@@ -1,0 +1,1 @@
+export interface AIModel { id:string; name:string; provider:string; status:'ready'|'loading'; } export interface ChatMessage { id:string; role:'user'|'assistant'; content:string; }
