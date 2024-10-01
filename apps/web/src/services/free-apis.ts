@@ -1,0 +1,1 @@
+class FreeAPIService { static i:FreeAPIService; static get(){ return this.i||(this.i=new FreeAPIService()) } async chat(m:string,msgs:any[]){ return 'free api response' } getModels(){ return [{id:'gemini',name:'Gemini',provider:'free'},{id:'llama',name:'Llama',provider:'free'}] } } export const freeAPIService=FreeAPIService.get();

@@ -1,0 +1,1 @@
+export class OfflineService { static i:OfflineService; static get(){ return this.i||(this.i=new OfflineService()) } getStatus(){ return navigator.onLine } }

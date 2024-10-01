@@ -1,0 +1,1 @@
+export async function chat(messages:any[]):Promise<string> { return 'AI response'; }
