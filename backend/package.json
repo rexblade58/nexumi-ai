@@ -1,0 +1,1 @@
+{ "name":"@nexumi/backend","main":"src/index.js","dependencies":{"express":"^4","cors":"^2","axios":"^1","openai":"^4"} }
