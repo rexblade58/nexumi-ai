@@ -1,0 +1,1 @@
+self.onmessage=(e)=>{ self.postMessage({result:'Worker: '+e.data.prompt}) };
