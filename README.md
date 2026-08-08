@@ -4,20 +4,20 @@ Multi-model AI assistant platform with web client and API backend.
 
 ## Architecture
 
-`
+```
 nexumi-ai/
   apps/web/        React frontend with TypeScript and Tailwind
   backend/         Express API server with proxy endpoints
-`
+```
 
 ## Quick Start
 
-`ash
+```bash
 git clone https://github.com/rexblade58/nexumi-ai.git
 cd nexumi-ai
 npm install
 npm run dev
-`
+```
 
 ## Features
 
@@ -32,10 +32,10 @@ npm run dev
 
 | Endpoint | Method | Description |
 | :--- | :--- | :--- |
-| /health | GET | Health check and uptime |
-| /api/chat | POST | Chat completion proxy |
-| /api/generate-image | POST | Image generation via FLUX.1 |
-| /api/analyze-image | POST | Image analysis via Gemini |
+| `/health` | GET | Health check and uptime |
+| `/api/chat` | POST | Chat completion proxy |
+| `/api/generate-image` | POST | Image generation via FLUX.1 |
+| `/api/analyze-image` | POST | Image analysis via Gemini |
 
 ## Tech Stack
 
@@ -49,9 +49,9 @@ npm run dev
 
 | Branch | Purpose |
 | :--- | :--- |
-| main | Production releases |
-| develop | Active development and integration |
-| staging | Pre-release testing and QA |
+| `main` | Production releases |
+| `develop` | Active development and integration |
+| `staging` | Pre-release testing and QA |
 
 ## License
 
